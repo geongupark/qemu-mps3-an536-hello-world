@@ -1,0 +1,10 @@
+[==========] Running all tests.
+[ RUN      ] UartControllerTest.BaudDivisorCalculation_50MHz_115200
+[       OK ] UartControllerTest.BaudDivisorCalculation_50MHz_115200
+[ RUN      ] UartControllerTest.BaudDivisorCalculation_25MHz_9600
+[       OK ] UartControllerTest.BaudDivisorCalculation_25MHz_9600
+[ RUN      ] UartControllerTest.StatusBit_TxFull
+[       OK ] UartControllerTest.StatusBit_TxFull
+[==========] Done running all tests.
+[  PASSED  ] 3 test(s).
+qemu-system-arm: terminating on signal 15 from pid 120848 (/bin/bash)

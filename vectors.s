@@ -3,18 +3,18 @@
 .global _start
 .section .text
 _start:
-    LDR sp, =stacktop
+    LDR sp, stack_ptr
     B reset
 
-    .word hang  // Undefined instruction handler
-    .word hang  // Software interrupt handler
-    .word hang  // Prefetch abort handler
-    .word hang  // Data abort handler
-    .word hang  // Reserved
-    .word hang  // IRQ handler
-    .word hang  // FIQ handler
+    .word hang
+    .word hang
+    .word hang
+    .word hang
+    .word hang
+    .word hang
+    .word hang
 
-stacktop: .word 0x30002000
+stack_ptr: .word 0x10010000
 
 reset:
     BL main
