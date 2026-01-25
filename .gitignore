@@ -32,4 +32,5 @@
 *.app
 
 # Test
-build_test/*
+src/build/*
+test/build/*
