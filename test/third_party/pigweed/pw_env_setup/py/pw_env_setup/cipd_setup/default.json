@@ -1,9 +1,0 @@
-{
-  "included_files": [
-    "arm.json",
-    "buildifier.json",
-    "pigweed.json",
-    "clang.json",
-    "python.json"
-  ]
-}
